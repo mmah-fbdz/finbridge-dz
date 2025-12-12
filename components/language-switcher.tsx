@@ -16,7 +16,7 @@ export function LanguageSwitcher() {
         <Button
           variant="ghost"
           size="sm"
-          className="gap-1.5 h-9 px-3 bg-slate-700 hover:bg-slate-600 text-white rounded-lg border-0"
+          className="gap-1.5 h-9 px-3 bg-[#00335C] hover:bg-[#004B87] text-white rounded-lg border-0"
         >
           <FlagIcon code={localeFlagCodes[locale]} />
           <span className="font-medium text-sm">{localeShortNames[locale]}</span>
