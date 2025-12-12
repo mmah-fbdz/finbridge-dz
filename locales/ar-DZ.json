@@ -1,0 +1,182 @@
+{
+  "common": {
+    "finbridge": "FinBridge DZ",
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "continue": "متابعة",
+    "back": "رجوع",
+    "next": "التالي",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "upload": "رفع",
+    "download": "تحميل",
+    "share": "مشاركة",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح"
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول إلى حسابك",
+      "subtitle": "الوصول إلى لوحة التحقق من أعمالك",
+      "email": "عنوان البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "signInButton": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب"
+    },
+    "register": {
+      "title": "إنشاء حسابك",
+      "subtitle": "ابدأ رحلة التحقق من عملك",
+      "email": "عنوان البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "signUpButton": "إنشاء حساب",
+      "haveAccount": "هل لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول"
+    },
+    "otp": {
+      "title": "تحقق من بريدك الإلكتروني",
+      "subtitle": "لقد أرسلنا رمز التحقق إلى",
+      "enterCode": "أدخل الرمز المكون من 6 أرقام",
+      "resendCode": "إعادة إرسال الرمز",
+      "resendIn": "إعادة الإرسال في",
+      "verify": "تحقق"
+    },
+    "companySetup": {
+      "title": "إعداد ملف الشركة",
+      "subtitle": "أخبرنا عن عملك",
+      "companyName": "اسم الشركة",
+      "sector": "القطاع",
+      "subSector": "القطاع الفرعي",
+      "annualRevenue": "الإيرادات السنوية",
+      "employees": "عدد الموظفين",
+      "uploadLogo": "رفع الشعار",
+      "complete": "إكمال الإعداد"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحبا بعودتك",
+    "emptyState": {
+      "title": "ابدأ رحلة التحقق الخاصة بك",
+      "description": "قم برفع مستنداتك المالية لبدء عملية التحقق",
+      "uploadButton": "رفع المستندات"
+    },
+    "scores": {
+      "globalTrust": "درجة الثقة العالمية",
+      "documentScore": "درجة الوثائق",
+      "activityScore": "درجة النشاط"
+    },
+    "categories": {
+      "financial": "البيانات المالية",
+      "legal": "الوثائق القانونية",
+      "operational": "الوثائق التشغيلية",
+      "tax": "السجلات الضريبية"
+    },
+    "recommendations": {
+      "title": "التوصيات الذكية",
+      "priority": "الأولوية",
+      "category": "الفئة",
+      "action": "الإجراء"
+    },
+    "documents": {
+      "title": "جاهزية الوثائق",
+      "name": "اسم الوثيقة",
+      "category": "الفئة",
+      "status": "الحالة",
+      "lastUpdated": "آخر تحديث"
+    }
+  },
+  "upload": {
+    "title": "مركز الرفع",
+    "subtitle": "قم برفع مستندات عملك للتحقق",
+    "dropzone": {
+      "title": "اسحب وأفلت الملفات هنا",
+      "description": "أو انقر للتصفح",
+      "supported": "التنسيقات المدعومة: PDF، JPG، PNG (بحد أقصى 10 ميجابايت)"
+    },
+    "metadata": {
+      "title": "معلومات الوثيقة",
+      "category": "الفئة",
+      "tags": "الوسوم",
+      "description": "الوصف",
+      "addTag": "إضافة وسم"
+    },
+    "runAnalysis": "تشغيل التحليل"
+  },
+  "analysis": {
+    "title": "التحليل",
+    "progress": "جاري تحليل الوثائق...",
+    "results": {
+      "title": "نتائج التحليل",
+      "financialScore": "الدرجة المالية",
+      "legalScore": "الدرجة القانونية",
+      "transparencyScore": "درجة الشفافية",
+      "proceed": "المتابعة إلى التحقق"
+    }
+  },
+  "validation": {
+    "title": "قائمة التحقق",
+    "subtitle": "راجع وأكمل العناصر المطلوبة",
+    "complete": "متابعة إلى الاقتراحات"
+  },
+  "suggestions": {
+    "title": "الاقتراحات الذكية",
+    "subtitle": "التحسينات الموصى بها لوثائقك",
+    "impact": "التأثير",
+    "continue": "متابعة"
+  },
+  "report": {
+    "title": "تقرير الجاهزية",
+    "generate": "إنشاء التقرير",
+    "generating": "جاري إنشاء التقرير...",
+    "preview": "معاينة التقرير",
+    "download": "تحميل PDF",
+    "share": "مشاركة رابط آمن"
+  },
+  "share": {
+    "title": "مركز المشاركة",
+    "subtitle": "شارك تقريرك مع البنوك والمستثمرين",
+    "recipientEmail": "البريد الإلكتروني للمستلم",
+    "generateLink": "إنشاء رابط آمن",
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم نسخ الرابط إلى الحافظة"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "markAllRead": "تحديد الكل كمقروء",
+    "noNotifications": "لا توجد إشعارات"
+  },
+  "welcome": {
+    "hero": {
+      "title": "رقمنة الثقة من أجل",
+      "subtitle": "الشركات الجزائرية",
+      "description": "حوّل مستنداتك المالية إلى رؤى قابلة للتنفيذ. احصل على التحقق والمصادقة والاستعداد للاستثمار باستخدام منصتنا المدعومة بالذكاء الاصطناعي.",
+      "startButton": "ابدأ التحقق",
+      "learnButton": "تعرف على كيفية العمل"
+    },
+    "features": {
+      "upload": {
+        "title": "رفع",
+        "description": "قدم مستنداتك المالية بشكل آمن"
+      },
+      "diagnose": {
+        "title": "تشخيص",
+        "description": "تحليل بياناتك بقوة الذكاء الاصطناعي"
+      },
+      "validate": {
+        "title": "تحقق",
+        "description": "احصل على التحقق والامتثال"
+      },
+      "share": {
+        "title": "مشاركة",
+        "description": "شارك التقارير مع البنوك والمستثمرين"
+      }
+    }
+  }
+}

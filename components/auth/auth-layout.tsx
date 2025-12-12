@@ -1,7 +1,7 @@
 "use client"
 
 import type { ReactNode } from "react"
-import Image from "next/image"
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 interface AuthLayoutProps {
   children: ReactNode
@@ -62,17 +62,15 @@ export function AuthLayout({ children }: AuthLayoutProps) {
       </div>
 
       {/* Right Panel - Auth Form */}
-      <div className="flex-1 flex flex-col min-h-screen bg-white">
+      <div className="flex-1 flex flex-col min-h-screen bg-white relative">
+        <div className="absolute top-6 right-6 z-10">
+          <LanguageSwitcher />
+        </div>
+
         {children}
 
         {/* Footer */}
         <div className="p-6 flex items-center justify-between text-sm text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <span className="flex items-center gap-1">
-              <Image src="/us-flag-waving.png" alt="English" width={24} height={16} className="rounded" />
-              ENG
-            </span>
-          </div>
           <span>2025 FinBridgeDZ</span>
         </div>
       </div>
