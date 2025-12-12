@@ -23,6 +23,7 @@ import {
   Truck,
   UserCheck,
   Wallet,
+  Home,
 } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { useState } from "react"
@@ -35,6 +36,7 @@ const mainMenuItems = [
     href: "/business",
     hasSubmenu: true,
     submenu: [
+      { icon: Home, label: "Dashboard", href: "/business" },
       { icon: TrendingUp, label: "Financial Pulse", href: "/business/financial-pulse" },
       { icon: CreditCard, label: "Credit Monitor", href: "/business/credit-monitor" },
       { icon: Truck, label: "Supplier & Pay", href: "/business/supplier-pay" },
