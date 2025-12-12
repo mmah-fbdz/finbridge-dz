@@ -35,7 +35,7 @@ const mainMenuItems = [
     href: "/business",
     hasSubmenu: true,
     submenu: [
-      { icon: TrendingUp, label: "Financial Pulse", href: "/business/financial-pulse" },
+      { icon: TrendingUp, label: "Financial Pulse", href: "/business/financial-pulse/dashboard" },
       { icon: CreditCard, label: "Credit Monitor", href: "/business/credit-monitor" },
       { icon: Truck, label: "Supplier & Pay", href: "/business/supplier-pay" },
       { icon: UserCheck, label: "Client & Smart Credit", href: "/business/client-credit" },

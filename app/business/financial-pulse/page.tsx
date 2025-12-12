@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Label } from "@/components/ui/label"
 import { FileSpreadsheet, ArrowRight, ArrowLeft, CheckCircle2 } from "lucide-react"
 import { cn } from "@/lib/utils"
+import Link from "next/link"
 
 const CSV_COLUMNS = ["Date", "Description", "Amount", "Category", "Account", "Reference"]
 const SYSTEM_FIELDS = [
@@ -153,7 +154,11 @@ export default function FinancialPulsePage() {
                   <p className="text-muted-foreground mb-6">
                     Your financial data has been imported and is now being analyzed.
                   </p>
-                  <Button className="bg-[#1e3a5f] hover:bg-[#2d4a6f] text-white">View Financial Pulse Dashboard</Button>
+                  <Link href="/business/financial-pulse/dashboard">
+                    <Button className="bg-[#1e3a5f] hover:bg-[#2d4a6f] text-white">
+                      View Financial Pulse Dashboard
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             )}
