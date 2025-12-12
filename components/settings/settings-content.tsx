@@ -101,7 +101,7 @@ export function SettingsContent() {
                 className={cn(
                   "w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors",
                   activeTab === tab.id
-                    ? "bg-primary text-primary-foreground"
+                    ? "bg-blue-500 text-white"
                     : "text-foreground/70 hover:bg-muted hover:text-foreground",
                 )}
               >

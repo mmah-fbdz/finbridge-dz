@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
             key={loc}
             onClick={() => setLocale(loc)}
             className={`flex items-center gap-3 cursor-pointer rounded-lg px-3 py-2 transition-colors ${
-              locale === loc ? "bg-cyan-500 text-white" : "hover:bg-gray-100 text-gray-900"
+              locale === loc ? "bg-sky-500 text-white" : "hover:bg-gray-100 text-gray-900"
             }`}
           >
             <FlagIcon code={localeFlagCodes[loc]} />
