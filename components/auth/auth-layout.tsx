@@ -11,7 +11,7 @@ export function AuthLayout({ children }: AuthLayoutProps) {
   return (
     <div className="min-h-screen flex">
       {/* Left Panel - Hero Section */}
-      <div className="hidden lg:flex lg:w-1/2 bg-[#1e3a5f] flex-col items-center justify-center p-12 relative">
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-[#00335C] to-[#004B87] flex-col items-center justify-center p-12 relative">
         <div className="absolute top-8 left-8 flex items-center gap-4">
           <div className="flex items-center gap-2">
             <div className="text-white font-bold text-xl tracking-wide">
