@@ -23,6 +23,7 @@ import {
   Truck,
   UserCheck,
   Wallet,
+  Home,
 } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { useState } from "react"
@@ -35,6 +36,7 @@ const mainMenuItems = [
     href: "/business",
     hasSubmenu: true,
     submenu: [
+      { icon: Home, label: "Dashboard", href: "/business" },
       { icon: TrendingUp, label: "Financial Pulse", href: "/business/financial-pulse" },
       { icon: CreditCard, label: "Credit Monitor", href: "/business/credit-monitor" },
       { icon: Truck, label: "Supplier & Pay", href: "/business/supplier-pay" },
@@ -96,9 +98,9 @@ export function Sidebar() {
                 <button
                   onClick={() => toggleSubmenu(item.label)}
                   className={cn(
-                    "w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors",
+                    "w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors relative",
                     pathname.startsWith(item.href)
-                      ? "bg-sidebar-accent text-sidebar-primary"
+                      ? "bg-blue-50 text-blue-700 border-l-4 border-blue-600 pl-2"
                       : "text-sidebar-foreground/70 hover:bg-sidebar-accent hover:text-sidebar-foreground",
                   )}
                 >
@@ -117,9 +119,9 @@ export function Sidebar() {
                         key={subItem.href}
                         href={subItem.href}
                         className={cn(
-                          "flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors",
+                          "flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors relative",
                           pathname === subItem.href
-                            ? "bg-sidebar-accent text-sidebar-primary"
+                            ? "bg-blue-50 text-blue-700 border-l-4 border-blue-600 pl-2"
                             : "text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground",
                         )}
                       >
@@ -134,9 +136,9 @@ export function Sidebar() {
               <Link
                 href={item.href}
                 className={cn(
-                  "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors",
+                  "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors relative",
                   pathname === item.href
-                    ? "bg-sidebar-accent text-sidebar-primary"
+                    ? "bg-blue-50 text-blue-700 border-l-4 border-blue-600 pl-2"
                     : "text-sidebar-foreground/70 hover:bg-sidebar-accent hover:text-sidebar-foreground",
                 )}
               >
@@ -156,9 +158,9 @@ export function Sidebar() {
             key={item.href}
             href={item.href}
             className={cn(
-              "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors",
+              "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-colors relative",
               pathname === item.href
-                ? "bg-sidebar-accent text-sidebar-primary"
+                ? "bg-blue-50 text-blue-700 border-l-4 border-blue-600 pl-2"
                 : "text-sidebar-foreground/70 hover:bg-sidebar-accent hover:text-sidebar-foreground",
             )}
           >

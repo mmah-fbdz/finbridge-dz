@@ -2,6 +2,7 @@
 
 import { create } from "zustand"
 import { persist } from "zustand/middleware"
+import type { Locale } from "./i18n"
 
 export interface CompanyProfile {
   id: string
@@ -69,6 +70,8 @@ interface AppState {
   email: string
   isNewRegistration: boolean
 
+  locale: Locale
+
   // Onboarding step
   onboardingStep: number
 
@@ -113,6 +116,7 @@ interface AppState {
   setEmail: (email: string) => void
   setAuthenticated: (value: boolean) => void
   setIsNewRegistration: (value: boolean) => void
+  setLocale: (locale: Locale) => void
   setOnboardingStep: (step: number) => void
   setCompanyProfile: (profile: CompanyProfile) => void
   addDocument: (doc: UploadedDocument) => void
@@ -136,6 +140,7 @@ const initialState = {
   isAuthenticated: false,
   email: "",
   isNewRegistration: false,
+  locale: "en-GB" as Locale,
   onboardingStep: 0,
   companyProfile: null,
   documents: [],
@@ -159,6 +164,7 @@ export const useAppStore = create<AppState>()(
       setEmail: (email) => set({ email }),
       setAuthenticated: (value) => set({ isAuthenticated: value }),
       setIsNewRegistration: (value) => set({ isNewRegistration: value }),
+      setLocale: (locale) => set({ locale }),
       setOnboardingStep: (step) => set({ onboardingStep: step }),
       setCompanyProfile: (profile) => set({ companyProfile: profile }),
 

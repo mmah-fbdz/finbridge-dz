@@ -1,0 +1,182 @@
+{
+  "common": {
+    "finbridge": "FinBridge DZ",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "upload": "Upload",
+    "download": "Download",
+    "share": "Share",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "subtitle": "Access your business verification dashboard",
+      "email": "Email address",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "signInButton": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start your business verification journey",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "signUpButton": "Create Account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "otp": {
+      "title": "Verify your email",
+      "subtitle": "We've sent a verification code to",
+      "enterCode": "Enter the 6-digit code",
+      "resendCode": "Resend code",
+      "resendIn": "Resend in",
+      "verify": "Verify"
+    },
+    "companySetup": {
+      "title": "Company Profile Setup",
+      "subtitle": "Tell us about your business",
+      "companyName": "Company Name",
+      "sector": "Sector",
+      "subSector": "Sub-sector",
+      "annualRevenue": "Annual Revenue",
+      "employees": "Number of Employees",
+      "uploadLogo": "Upload Logo",
+      "complete": "Complete Setup"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "emptyState": {
+      "title": "Start Your Verification Journey",
+      "description": "Upload your financial documents to begin the verification process",
+      "uploadButton": "Upload Documents"
+    },
+    "scores": {
+      "globalTrust": "Global Trust Score",
+      "documentScore": "Document Score",
+      "activityScore": "Activity Score"
+    },
+    "categories": {
+      "financial": "Financial Statements",
+      "legal": "Legal Documents",
+      "operational": "Operational Documents",
+      "tax": "Tax Records"
+    },
+    "recommendations": {
+      "title": "Smart Recommendations",
+      "priority": "Priority",
+      "category": "Category",
+      "action": "Action"
+    },
+    "documents": {
+      "title": "Document Readiness",
+      "name": "Document Name",
+      "category": "Category",
+      "status": "Status",
+      "lastUpdated": "Last Updated"
+    }
+  },
+  "upload": {
+    "title": "Upload Center",
+    "subtitle": "Upload your business documents for verification",
+    "dropzone": {
+      "title": "Drag and drop files here",
+      "description": "or click to browse",
+      "supported": "Supported formats: PDF, JPG, PNG (max 10MB)"
+    },
+    "metadata": {
+      "title": "Document Information",
+      "category": "Category",
+      "tags": "Tags",
+      "description": "Description",
+      "addTag": "Add tag"
+    },
+    "runAnalysis": "Run Analysis"
+  },
+  "analysis": {
+    "title": "Analysis",
+    "progress": "Analyzing documents...",
+    "results": {
+      "title": "Analysis Results",
+      "financialScore": "Financial Score",
+      "legalScore": "Legal Score",
+      "transparencyScore": "Transparency Score",
+      "proceed": "Proceed to Validation"
+    }
+  },
+  "validation": {
+    "title": "Validation Checklist",
+    "subtitle": "Review and complete the required items",
+    "complete": "Continue to Suggestions"
+  },
+  "suggestions": {
+    "title": "Smart Suggestions",
+    "subtitle": "Recommended improvements for your documentation",
+    "impact": "Impact",
+    "continue": "Continue"
+  },
+  "report": {
+    "title": "Readiness Report",
+    "generate": "Generate Report",
+    "generating": "Generating report...",
+    "preview": "Preview Report",
+    "download": "Download PDF",
+    "share": "Share Secure Link"
+  },
+  "share": {
+    "title": "Share Center",
+    "subtitle": "Share your report with banks and investors",
+    "recipientEmail": "Recipient Email",
+    "generateLink": "Generate Secure Link",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all as read",
+    "noNotifications": "No notifications"
+  },
+  "welcome": {
+    "hero": {
+      "title": "Digitizing Trust for",
+      "subtitle": "Algerian Businesses",
+      "description": "Transform your financial documents into actionable insights. Get verified, validated, and ready for investment with our AI-powered platform.",
+      "startButton": "Start Verification",
+      "learnButton": "Learn How It Works"
+    },
+    "features": {
+      "upload": {
+        "title": "Upload",
+        "description": "Submit your financial documents securely"
+      },
+      "diagnose": {
+        "title": "Diagnose",
+        "description": "AI-powered analysis of your data"
+      },
+      "validate": {
+        "title": "Validate",
+        "description": "Get verified and compliance-ready"
+      },
+      "share": {
+        "title": "Share",
+        "description": "Share reports with banks and investors"
+      }
+    }
+  }
+}
