@@ -12,9 +12,29 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 ## Deployment
 
-Your project is live at:
+### FinBridge DZ PRODUCTION
+
+The PROD project deployment is managed at: 
+
+**[https://vercel.com/fb-projects-16a8d9fd/finbridge-dz](https://vercel.com/fb-projects-16a8d9fd/finbridge-dz)**
+
+Usually it is linked to the "main" branch.
+
+The PROD project is live at:
+
+**[https://finbridge-dz.vercel.app](https://finbridge-dz.vercel.app)**
+
+### FinBridge DZ PRE-PRODUCTION
+
+The PRE-PROD project deployment is managed at: 
 
 **[https://vercel.com/fb-projects-16a8d9fd/v0-start-up](https://vercel.com/fb-projects-16a8d9fd/v0-start-up)**
+
+Usually it is linked to the "fb-dz-v1" branch.
+
+The PRE-PROD project is live at:
+
+**[https://v0-fbdz-1.vercel.app/](https://v0-fbdz-1.vercel.app/)**
 
 ## Build your app
 
